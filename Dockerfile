@@ -7,4 +7,5 @@ RUN gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E206
 SHELL [ "/bin/bash", "-l", "-c" ]
 RUN rvm install ruby-2.3.8
 RUN gem install bundler
+ENV BUNDLE_SILENCE_ROOT_WARNING=1
 CMD ["/bin/bash", "-l"]
