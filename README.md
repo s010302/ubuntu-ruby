@@ -1,1 +1,1 @@
-# ubuntu-ruby
+# Container based on Ubuntu Xenial with rvm and ruby-2.3.8 installed
